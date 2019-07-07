@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Tahoma, Georgia, 'Times New Roman', Geneva;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 3rem;
+    text-shadow: 4px 6px rgb(2, 0, 0);
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(29, 15, 15);
+    text-align: center;
+    padding: 10px;
+}
+h3 {
+    font-size: 25px;
+    color: rgb(29, 15, 15);
+}
+
+body {
+    height: 100%;
+    margin-top: 100px; 
+    background:url(../img/images.jpg) no-repeat center fixed;
+    background-size: 50rem 40rem;
+    z-index: -1;
+    
+}
+.diffuser {
+    background-color: rgba(248, 248, 237, 0.87);
+    
+}
+li {
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 5px 9px 2px rgb(107, 79, 79);
+    background:url(../img/BannerImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .3;
+    text-align: right;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem;
+    height: 4rem;
+    border-bottom: 2px solid black;
+}
+
+.header img {
+    border-radius: 2px;
+    box-shadow: 10px 10px 20px 8px rgb(3, 3, 3);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+    color:  rgb(246, 248, 213);
+    background:url(../img/BannerImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    text-align: center;
+    height: 30px;
+    border-top: 2px solid black;
+    box-shadow: 5px 0px 9px 2px rgb(107, 79, 79);
+}
+
+.footer p {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.logo {
+    height: 4rem;
+   width: 4rem;
+   margin-left: 1%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   
+}
+
+.main-content_list {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.main-content_list li {
+    padding: 5px;
+}
+
+.form {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-top: 15px;
+}
